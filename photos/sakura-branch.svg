@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300">
+  <defs>
+    <radialGradient id="pg" cx="0" cy="-4" r="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7f9"/>
+      <stop offset=".55" stop-color="#fbcbd6"/>
+      <stop offset="1" stop-color="#ee9fb2"/>
+    </radialGradient>
+    <linearGradient id="br" x1="0" x2="1">
+      <stop offset="0" stop-color="#6b4a45"/>
+      <stop offset="1" stop-color="#9a7069"/>
+    </linearGradient>
+    <!-- лепесток с выемкой на кончике -->
+    <path id="p" d="M0 0C-9-6-11-21-4-27L0-23 4-27C11-21 9-6 0 0Z" fill="url(#pg)"/>
+    <g id="st" stroke="#d9667f" stroke-width=".9" stroke-linecap="round">
+      <path d="M0 0L0-9M0 0L6-7M0 0L-6-7M0 0L8-2M0 0L-8-2"/>
+    </g>
+    <g id="f">
+      <use href="#p"/><use href="#p" transform="rotate(72)"/><use href="#p" transform="rotate(144)"/><use href="#p" transform="rotate(216)"/><use href="#p" transform="rotate(288)"/>
+      <use href="#st"/>
+      <g fill="#f3b54f"><circle cx="0" cy="-9" r="1.3"/><circle cx="6" cy="-7" r="1.3"/><circle cx="-6" cy="-7" r="1.3"/><circle cx="8" cy="-2" r="1.2"/><circle cx="-8" cy="-2" r="1.2"/></g>
+      <circle r="3" fill="#e2788f"/>
+    </g>
+    <g id="bud">
+      <ellipse rx="5" ry="8" fill="#f6a9bb"/>
+      <path d="M-4 5Q0 12 4 5" fill="#8a6a55"/>
+    </g>
+  </defs>
+
+  <!-- ветка -->
+  <g fill="none" stroke="url(#br)" stroke-linecap="round">
+    <path d="M-10 250C60 225 120 190 175 160S290 95 430 70" stroke-width="7"/>
+    <path d="M120 192C135 160 150 140 175 120" stroke-width="4"/>
+    <path d="M250 112C270 90 300 80 330 82" stroke-width="3.5"/>
+    <path d="M60 228C70 255 95 270 120 275" stroke-width="3.5"/>
+    <path d="M330 82C350 70 365 55 372 40" stroke-width="2.5"/>
+  </g>
+
+  <!-- цветы -->
+  <use href="#f" transform="translate(178 118) scale(1.25) rotate(10)"/>
+  <use href="#f" transform="translate(210 150) scale(1.05) rotate(-20)"/>
+  <use href="#f" transform="translate(120 190) scale(1.15) rotate(30)"/>
+  <use href="#f" transform="translate(268 104) scale(.95) rotate(5)"/>
+  <use href="#f" transform="translate(332 82) scale(1.1) rotate(-15)"/>
+  <use href="#f" transform="translate(70 232) scale(.9) rotate(40)"/>
+  <use href="#f" transform="translate(124 272) scale(.8) rotate(-10)"/>
+  <use href="#f" transform="translate(395 66) scale(.85) rotate(25)"/>
+
+  <!-- бутоны -->
+  <use href="#bud" transform="translate(150 140) rotate(-35)"/>
+  <use href="#bud" transform="translate(300 78) rotate(20)"/>
+  <use href="#bud" transform="translate(372 38) rotate(15) scale(.8)"/>
+  <use href="#bud" transform="translate(240 128) rotate(50) scale(.85)"/>
+  <use href="#bud" transform="translate(95 258) rotate(-60) scale(.8)"/>
+
+  <!-- опавшие лепестки -->
+  <use href="#p" transform="translate(230 200) rotate(120) scale(.6)"/>
+  <use href="#p" transform="translate(300 160) rotate(-40) scale(.5)"/>
+  <use href="#p" transform="translate(180 240) rotate(200) scale(.55)"/>
+</svg>

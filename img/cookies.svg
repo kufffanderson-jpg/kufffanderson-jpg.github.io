@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="k" r=".7"><stop offset="0" stop-color="#f9d6b9"/><stop offset="1" stop-color="#e3a77f"/></radialGradient>
+    <radialGradient id="j" r=".6"><stop offset="0" stop-color="#f05a74"/><stop offset="1" stop-color="#b52845"/></radialGradient>
+    <g id="c">
+      <g fill="url(#k)"><circle cx="0" cy="-17" r="15"/><circle cx="16.2" cy="-5.3" r="15"/><circle cx="10" cy="13.8" r="15"/><circle cx="-10" cy="13.8" r="15"/><circle cx="-16.2" cy="-5.3" r="15"/><circle r="18"/></g>
+      <g fill="none" stroke="#c98a62" stroke-width="1.6" opacity=".5"><path d="M0-4V-22"/><path d="M4 1 21-6"/><path d="M2 5 13 20"/><path d="M-2 5-13 20"/><path d="M-4 1-21-6"/></g>
+      <circle r="8" fill="url(#j)"/>
+      <ellipse cx="-2.5" cy="-3" rx="3" ry="1.8" fill="#fff" opacity=".5"/>
+    </g>
+  </defs>
+  <ellipse cx="100" cy="166" rx="76" ry="10" fill="#7a2f3c" opacity=".08"/>
+  <use href="#c" transform="translate(64 128) rotate(12) scale(1.05)"/>
+  <use href="#c" transform="translate(138 132) rotate(-20) scale(1)"/>
+  <use href="#c" transform="translate(102 82) rotate(30) scale(1.15)"/>
+  <g fill="#f5c6a2"><circle cx="40" cy="160" r="2.5"/><circle cx="160" cy="164" r="2"/><circle cx="150" cy="80" r="1.8"/></g>
+</svg>
